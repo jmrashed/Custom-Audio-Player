@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- cdn bootstrap 5 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- cdn fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- cdn jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/demo2.css">
+    <script src="./assets/js/demo2.js"></script>
+</head>
+
+
+<body>
+
+    <!-- I am not the owner of these tracks. track images are 22 - 27 -->
+
+    <div id="app-cover">
+        <div id="bg-artwork"></div>
+        <div id="bg-layer"></div>
+        <div id="player">
+            <div id="player-track">
+                <div id="album-name"></div>
+                <div id="track-name"></div>
+                <div id="track-time">
+                    <div id="current-time"></div>
+                    <div id="track-length"></div>
+                </div>
+                <div id="s-area">
+                    <div id="ins-time"></div>
+                    <div id="s-hover"></div>
+                    <div id="seek-bar"></div>
+                </div>
+            </div>
+            <div id="player-content">
+                <div id="album-art">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/perception-album-cover.png"
+                        class="active" id="_1">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/silence-album-cover.jpg" id="_2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeF8jZE27NKvhKz8w2Cn4tG49_0YkFyqhdI8fficlY0usVn4KFP4sYPyeqR5nWAlDrZpI:https://i.ytimg.com/vi/y-yyB1OMPAY/sddefault.jpg&usqp=CAU"
+                        id="_3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBy8Rvk-a97tfkuTfEpoVUABqrVz-IyEMvVb3iBsQToUYahfYgvLmc09WEbB8qjW2_bJU:https://i.scdn.co/image/ab67616d00001e02154d2b4d50f678a4308efd87&usqp=CAU"
+                        id="_4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPP77q1gbVFHfCustPsGNLv33rAohWNGKwMYObZkhmA8H9XrTjKX8thbL9MkQqhQ_9ZKw:https://i.scdn.co/image/ab67616d0000b273087fdb1706019725e277842a&usqp=CAU"
+                        id="_5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTeN4kqf2JMevq51KZ_KjFeXlE-xoPWUmZ_pAFykr3xlvguX1wTswECbef8DPkCZqZ9Og:https://i.ytimg.com/vi/fwUqWgHMlyo/hqdefault.jpg&usqp=CAU"
+                        id="_6">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3aUsmI7PxOoJmbMdvcbNEBIv0hekNW7Tn0KIJZLK1I2hqbFC1CohxGh_v_p7uX82WdPw:https://static.wikia.nocookie.net/alan-walker/images/1/1d/9fa13acf7fd692b9310adda64cd0be3f.jpg/revision/latest%3Fcb%3D20191029171926&usqp=CAU"
+                        id="_7">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4toJTHoqsiLxg1LXxTPOAF_HJbhMGhoa14-VWoJ78D7X5Kx2p86QNYlBAdk3ae9ru7QY:https://upload.wikimedia.org/wikipedia/en/e/e5/Marshmello_and_Bastille_Happier.png&usqp=CAU"
+                        id="_8">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdmuBQ6GKTx7-Dhzay7Yd4Z51-nOyXLnesiI2RHpK5sio0BS8gjYMFTRpP4gPhP21pZkM:https://i.ytimg.com/vi/5Di20x6vVVU/maxresdefault.jpg&usqp=CAU"
+                        id="_9">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqvmVSmfyGTsNpbcN52N24OepVJV0ySsZgqzOnUyu73y1xVbcuOHPazGT6c_VlsseVorQ:https://images.genius.com/8830989510e788cf0c95721ec7706871.1000x1000x1.png&usqp=CAU"
+                        id="_10">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlhi4HFyNZE7XmCOwE4bL0msscyBts8tzUX_8IJtoprahfXBO6tnpsEA08ckQAsf_GaqU:https://m.media-amazon.com/images/I/410-2BCpZTL.jpg&usqp=CAU"
+                        id="_11">
+                    <div id="buffer-box">Buffering ...</div>
+                </div>
+                <div id="player-controls">
+                    <div class="control">
+                        <div class="button" id="play-previous">
+                            <i class="fas fa-backward"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-pause-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-next">
+                            <i class="fas fa-forward"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
