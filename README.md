@@ -41,7 +41,8 @@ To use the audio player, simply embed the code into an HTML file, replace the sr
 
 ```
 ## Screenshots
-<img src="images/audio.png">
+<img src="./assets/images/1.png">
+<img src="./assets/images/2.png">
 
 # Styling
 The audio player is styled using CSS. You can customize the look of the player by modifying the CSS.
