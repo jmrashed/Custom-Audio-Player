@@ -41,7 +41,10 @@ To use the audio player, simply embed the code into an HTML file, replace the sr
 
 ```
 ## Screenshots
+### Demo 'demo1.html'
 <img src="./assets/images/1.png">
+
+### Demo 'demo2.html'
 <img src="./assets/images/2.png">
 
 # Styling
