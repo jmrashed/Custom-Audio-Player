@@ -4,6 +4,13 @@ This code provides an example of how to create an audio player using HTML and CS
 # Demo
 Here's a demo of the audio player in action:
 
+### Demo 'demo1.html'
+<img src="./assets/images/1.png">
+
+### Demo 'demo2.html'
+<img src="./assets/images/2.png">
+
+
 # How to Use
 To use the audio player, simply embed the code into an HTML file, replace the src attribute in the source element with the URL of your MP3 file, and adjust the name attribute to match the name of your audio file.
 
@@ -40,12 +47,7 @@ To use the audio player, simply embed the code into an HTML file, replace the sr
 </div>
 
 ```
-## Screenshots
-### Demo 'demo1.html'
-<img src="./assets/images/1.png">
-
-### Demo 'demo2.html'
-<img src="./assets/images/2.png">
+ 
 
 # Styling
 The audio player is styled using CSS. You can customize the look of the player by modifying the CSS.
